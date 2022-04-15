@@ -1,0 +1,40 @@
+.sidebar{
+    // background-color: lightcoral;
+    flex: 1;
+    border-right: 0.75px solid rgb(230, 227, 227);
+    min-height: 100vh;
+    background-color: white;
+
+    .top{
+        // background-color: lightgreen;
+        height: 50px;
+
+        display: flex;
+        align-items: center; 
+        // 2 lines make center, but in left of cells.
+
+        // margin-left: 10px;
+        justify-content: center; // center, on top of cell
+
+        .logo{
+            font-size: 20px;
+            font-weight: bold;
+            color: #6439ff;
+        }
+    }
+
+    hr{
+        height: 0;
+        border: 1px solid rgb(230, 227, 227);
+    }
+
+    .center{
+        padding-left: 10px;
+
+        ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+    }
+}

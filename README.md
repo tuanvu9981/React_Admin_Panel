@@ -12,3 +12,6 @@
   * [Google Font Nunito](https://fonts.google.com/specimen/Nunito)
   * [Convert scss to css](https://hocwebchuan.com/tutorial/scss/scss_install.php)
   * [display: flex](https://hocwebchuan.com/tutorial/css3/display-flex.php)
+  * [padding](https://hocwebchuan.com/reference/cssSection/pr_padding.php)
+  * [icon](https://mui.com/material-ui/material-icons/?query=bill)
+  * [hover](https://hocwebchuan.com/reference/cssSection/se_hover.php)

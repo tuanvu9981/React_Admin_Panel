@@ -15,3 +15,9 @@
   * [padding](https://hocwebchuan.com/reference/cssSection/pr_padding.php)
   * [icon](https://mui.com/material-ui/material-icons/?query=bill)
   * [hover](https://hocwebchuan.com/reference/cssSection/se_hover.php)
+
+  * [border & border-radius](https://hocwebchuan.com/reference/cssSection/css3/pr_border_radius.php)
+
+* Short-cut:
+  * m10 --> margin: 10px
+  * 

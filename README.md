@@ -20,4 +20,7 @@
 
 * Short-cut:
   * m10 --> margin: 10px
-  * 
+  * .(css-classname) + Enter --> ```<div> className="(css-classname)"></div>```
+  p..(css-classname) + Enter --> ```<p> className="(css-classname)"></p>```
+  * w15 --> ```width: 15px```
+  * h15 --> ```height: 15px```

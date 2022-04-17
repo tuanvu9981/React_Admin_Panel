@@ -1,3 +1,90 @@
-.navbar{
+.navbar {
+    height: 50;
+    border-bottom: 0.5px solid rgb(231, 228, 228);
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #555;
+
+    // ONLY HERE --> STILL VERTICAL, .wrapper not flex
+    // FLEX --> thẻ cha trực tiếp bao phần tử mới work
     
+
+    .wrapper{
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        justify-content: space-between;
+        //wrapper chứa search + items --> tách nhau ra 2 phía (space-between)
+        width: 100%; //chiếm hết phần diện tích của navbar (flex 1 vs 5)
+
+        .search{
+            display: flex;   
+            align-items: center;
+            border: 0.5px solid lightgray;
+            padding: 3px; // input + icon (left right top bot: extend 3px)
+            // background-color: black;
+            
+            input{
+                border: none;   //remove border of input
+                outline: none;  //remove border of input when clicking
+                background: transparent; 
+                // (adj): trong suốt  --> đồng nhất màu sắc với search. 
+                // seacrh màu gì thì input màu đó. Không có transparent là khác màu
+
+                &::placeholder{
+                    font-size: 13px;
+                }
+            }
+        }
+
+        .items {
+            display: flex;
+            align-items: center;
+
+            .item{
+                display: flex;
+                align-items: center;
+                margin: 20px; //left right top bot expand 20px
+
+                // Chỉnh vị trí tương đối (để thông báo + tin nhắn) có hiện số
+                position: relative;
+
+                .icon{
+                    font-size: 20px; //make all Icon Component smaller
+                }
+
+                .avatar{
+                    width: 35px;
+                    height: 35px;
+                    border-radius: 50%;
+                }
+
+                .counter{
+                    width: 15px;
+                    height: 15px;
+                    background-color: red;
+                    border-radius: 50%; //biến hình vuông trở thành hình tròn (vd: avatar)
+                    color: white; // <div>2</div> --> số 2 có màu trắng, trong nền màu đỏ 
+
+                    display: flex;
+                    align-items: center; 
+                    justify-content: center;
+                    // 3 dòng trên, đưa số 2 màu trắng vào chính giữa block hình tròn
+
+                    font-size: 10px;
+                    font-weight: bold;
+
+                    // dịch chuyển so với thẻ cha (thẻ .item)
+                    position: absolute;
+                    top: -5px;
+                    right: -5px;
+                    // dịch chuyển con số lên trên, phía bên phải so với class css cha .item
+
+                }
+            }
+        }
+    }   
+    
+
 }

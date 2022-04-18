@@ -21,5 +21,48 @@
     .left, .right{
         display: flex;
         flex-direction: column; // trên .widget: dọc --> dưới: ngang
+        justify-content: space-between; //class cha có 3 class con --> tách ra, đầu giữa và cuối
+
+
+        .title{
+            font-weight: bold;
+            font-size: 14px;
+            color: rgb(160,160,160); //color: text --> background-color: background
+        }
+
+        .counter{
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .link{
+            font-size: 13px;
+            border-bottom: 1.5px solid rgb(29, 84, 185);
+            width: max-content; // phần gạch chân kéo dài đến hết chữ (không thò thụt hơn kém)
+            font-weight: bold;
+        }
+
+        .percentage{
+            display: flex;
+            align-items: center;
+            font-size: 14px; //smaller
+
+            &.positive{
+                color: green;
+            }
+
+            &.negative{
+                color: red;
+            }
+        }
+
+        .icon{
+            font-size: 18px;
+            padding: 5px;
+            // background-color: rgba(128, 0, 128, 0.541);
+            border-radius: 5px;
+            align-self: flex-end; // nằm ra bên ngoài cùng so với các component anh em
+        }
+
     }
 }

@@ -18,11 +18,11 @@
 
   * [border & border-radius](https://hocwebchuan.com/reference/cssSection/css3/pr_border_radius.php)
   * [position](https://viblo.asia/p/thuoc-tinh-position-trong-css-6J3ZggdqZmB)
-  * [Box Shadow](https://html-css-js.com/css/generator/box-shadow/)
+  * [Box Shadow](https://html-css-js.com/css/generator/box-shadow/) --> Widget component
 
 * Short-cut:
   * m10 --> margin: 10px
   * .(css-classname) + Enter --> ```<div> className="(css-classname)"></div>```
-  p..(css-classname) + Enter --> ```<p> className="(css-classname)"></p>```
+  * p..(css-classname) + Enter --> ```<p> className="(css-classname)"></p>```
   * w15 --> ```width: 15px```
   * h15 --> ```height: 15px```

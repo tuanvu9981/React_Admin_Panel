@@ -17,6 +17,8 @@
   * [hover](https://hocwebchuan.com/reference/cssSection/se_hover.php)
 
   * [border & border-radius](https://hocwebchuan.com/reference/cssSection/css3/pr_border_radius.php)
+  * [position](https://viblo.asia/p/thuoc-tinh-position-trong-css-6J3ZggdqZmB)
+  * [Box Shadow](https://html-css-js.com/css/generator/box-shadow/)
 
 * Short-cut:
   * m10 --> margin: 10px

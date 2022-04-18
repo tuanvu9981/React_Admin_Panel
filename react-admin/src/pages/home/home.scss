@@ -5,8 +5,10 @@
         // background-color: lightblue;
         flex: 5
     }
-    // background-color: rebeccapurple;
-    // .title{
-    //     color: white;
-    // }
+    
+    .widgets{
+        display: flex;
+        padding: 20px;
+        gap: 20px;
+    }
 }

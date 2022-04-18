@@ -1,0 +1,25 @@
+.widget{
+    // margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    // tách đôi 2 thẻ div con về 2 phía trái phải
+
+    flex: 1; 
+    // 4 div with .widget css class --> seperate EVENLY
+
+    padding: 10px;
+
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+
+    // border-radius: 50%; // biến mọi thứ thành hình ELIP...
+    border-radius: 10px; //các cạnh của hình chữ nhật được cong viền
+
+    height: 100px;
+    // width: 500px;
+
+    .left, .right{
+        display: flex;
+        flex-direction: column; // trên .widget: dọc --> dưới: ngang
+    }
+}

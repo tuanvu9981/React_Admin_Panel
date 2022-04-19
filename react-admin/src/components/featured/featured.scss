@@ -6,4 +6,92 @@
 
     padding: 10px;
 
+    .top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between; //Icon & <h1> tách về 2 phía 
+        color: gray;
+
+        .title{
+            font-size: 18px;
+            font-weight: 500%;
+            // margin-left: 150px;
+        }
+    }
+
+    .bottom{
+        padding: 20px;
+        display: flex;
+        flex-direction: column; //row --> chart, text nằm ngang 
+        align-items: center; //  Tác dụng thu nhỏ ??????
+        justify-content: center;
+        gap: 15px; //  Khoảng cách giữa các phần tử (cách dòng) là 15px
+
+        .featuredChart{
+            width: 100px;
+            height: 100px;
+
+            // Chỉnh sửa size của vật thể --> Chỉnh sửa width và height
+        }
+
+        .title{
+            font-weight: 500;
+            color: gray;
+            font-size: 18px;
+        }
+
+        .amount{
+            font-size: 30px;
+
+        }
+
+        .description{
+            font-weight: 300;
+            font-weight: 15px;
+            color: gray;
+            text-align: center; 
+            // Class trực tiếp chứa text sẽ khiến chữ căn giữa 
+            // Thẻ <div text-align: center><div>Text</div></div> 
+            // --> Không căn giữa --> Thẻ cha trực tiếp mới căn giữa
+        }
+
+        .summary{
+            width: 100%; 
+            //chiếm 100% không gian của component cha (trước không được vậy nên bị dính vào nhau)
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .item{
+                text-align: center;
+
+                .itemTitle{
+                    font-size: 17px;
+                    color: gray;
+                }
+
+                .itemResult{
+                    display: flex;
+                    align-items: center; //biến cột thành hàng 
+
+                    margin-top: 10px; //tách ra với phía trên 10px
+                    font-size: 15px;
+
+                    // font-weight: bold;
+                    &.positive{
+                        color: green;
+                    }
+
+                    &.negative{
+                        color: red;
+                    }
+
+                    // .resultAmount{
+                        
+                    // }
+                }
+            }
+        }
+    }
+
 }

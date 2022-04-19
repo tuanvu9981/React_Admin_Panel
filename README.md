@@ -27,4 +27,8 @@
   * w15 --> ```width: 15px```
   * h15 --> ```height: 15px```
 
-* 1:07:41
+* Sự khác nhau giữa margin và padding: Nếu như thẻ div, trong div có màu nền + chữ 
+  * Margin: Màu nền giữ nguyên, chữ bị dịch đi 
+  * Padding: Cả chữ và màu nền đều bị dịch chuyển đi 
+
+* 01:16:17 

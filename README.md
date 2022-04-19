@@ -31,4 +31,5 @@
   * Margin: Màu nền giữ nguyên, chữ bị dịch đi 
   * Padding: Cả chữ và màu nền đều bị dịch chuyển đi 
 
+* Object Fit ? 
 * 01:16:17 

@@ -9,13 +9,14 @@
     .top{
         display: flex;
         align-items: center;
-        justify-content: space-between; //Icon & <h1> tách về 2 phía 
+        justify-content: space-between; //Icon & <h1> tách về 2 phía --> text-align VÔ TÁC DỤNG
         color: gray;
 
         .title{
+            text-align: center;
             font-size: 18px;
-            font-weight: 500%;
-            // margin-left: 150px;
+            font-weight: bold;
+            margin-left: 60px;
         }
     }
 

@@ -25,6 +25,8 @@ const Home = () => {
                     <Featured/>
                     <Chart/>
                 </div>
+
+                
             </div>
         </div>
     )

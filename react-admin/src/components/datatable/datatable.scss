@@ -1,0 +1,56 @@
+.datatable{
+    height: 600px;
+    padding: 20px;
+    // Ban đầu không có height = 600px, mọi thứ không thèm hiện ra ...
+    // --> Có thể hiểu ra là height = 0px
+
+    .cellWithImg{
+        display: flex;
+        align-items: center;
+
+        .cellImg{
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 20px;
+        }
+    }
+
+    .active{
+        color: green;
+    }
+
+    .pending{
+        color: orange;
+    }
+
+    .passive{
+        color: red;
+    }
+
+    .cellAction{
+        display: flex;
+        align-items: center;
+        // justify-content: space-between; --> Dùng không được thì 
+        gap: 15px;
+        
+        .viewButton{
+            background-color: lightskyblue;
+            padding: 20px;
+            border-radius: 50%;
+            height: 75%;
+            color: white
+        }
+
+        .deleteButton{
+            background-color: lightcoral;
+            padding: 20px;
+            border-radius: 50%;
+            height: 75%;
+            color: white
+        }
+    }
+}
+
+// 1:53:39

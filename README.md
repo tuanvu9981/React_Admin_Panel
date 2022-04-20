@@ -26,6 +26,7 @@
   * p..(css-classname) + Enter --> ```<p> className="(css-classname)"></p>```
   * w15 --> ```width: 15px```
   * h15 --> ```height: 15px```
+  * df --> ```display: flex```
 
 * Sự khác nhau giữa margin và padding: Nếu như thẻ div, trong div có màu nền + chữ 
   * Margin: Màu nền giữ nguyên, chữ bị dịch đi 

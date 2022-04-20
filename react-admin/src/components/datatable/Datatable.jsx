@@ -25,8 +25,8 @@ const Datatable = () => {
             <DataGrid
                 rows={userRows}
                 columns={userColumns.concat(actionColumn)} // list concat new list --> add to END
-                pageSize={5}
-                rowsPerPageOptions={[5]}
+                pageSize={8} //cái này cx cần chỉnh --> Hiện 10 dòng 1 trang
+                rowsPerPageOptions={[8]} //bao nhiêu dòng trên 1 trang --> Chuyển thành 10
                 checkboxSelection
             />
         </div>

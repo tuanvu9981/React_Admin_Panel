@@ -30,12 +30,12 @@ export const userColumns = [
     {
         field: "status",
         headerName: "Status",
-        width: 250,
+        width: 200,
         renderCell: (params) => {
             return (
-                params.row.status === "active" ? <div className="active">Active</div>
-                    : params.row.status === "pending" ? <div className="pending">Pending</div>
-                        : <div className="passive">Passive</div>
+                params.row.status === "active" ? <div className="status active">Active</div>
+                    : params.row.status === "pending" ? <div className="status pending">Pending</div>
+                        : <div className="status passive">Passive</div>
             )
         }
     }

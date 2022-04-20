@@ -17,16 +17,21 @@
         }
     }
 
-    .active{
-        color: green;
-    }
+    .status{
+        font-size: 18px;
+        font-weight: bold;
 
-    .pending{
-        color: orange;
-    }
+        &.active{
+            color: green;
+        }
 
-    .passive{
-        color: red;
+        &.pending{
+            color: orange;
+        }
+
+        &.passive{
+            color: red;
+        }
     }
 
     .cellAction{
@@ -34,21 +39,23 @@
         align-items: center;
         // justify-content: space-between; --> Dùng không được thì 
         gap: 15px;
+        font-size: 15px;
+        color: black;
         
         .viewButton{
             background-color: lightskyblue;
-            padding: 20px;
-            border-radius: 50%;
-            height: 75%;
-            color: white
+            padding: 6px 8.5px; // top+bot: 12px | left+right: 10px
+            border-radius: 5px;
+            border: 1.5px dotted rgba(0,0,139,0.596);
+            cursor: pointer; //di chuyển vào chuyển thành hình bàn tay
         }
 
         .deleteButton{
             background-color: lightcoral;
-            padding: 20px;
-            border-radius: 50%;
-            height: 75%;
-            color: white
+            padding: 6px 8.5px; // top+bot: 12px | left+right: 10px
+            border-radius: 5px;
+            border: 1.5px dotted rgba(0,0,139,0.596);
+            cursor: pointer; //di chuyển vào chuyển thành hình bàn tay 
         }
     }
 }

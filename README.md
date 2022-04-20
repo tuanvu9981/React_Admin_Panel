@@ -33,4 +33,4 @@
   * Padding: Cả chữ và màu nền đều bị dịch chuyển đi 
 
 * Object Fit ? 
-* 01:16:17 
+* **(Xương máu) Muốn 1 button có màu sắc background co lên thụt vào để bao phủ chữ cái --> xài padding**

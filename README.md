@@ -32,5 +32,7 @@
   * Margin: Màu nền giữ nguyên, chữ bị dịch đi 
   * Padding: Cả chữ và màu nền đều bị dịch chuyển đi 
 
-* Object Fit ? 
+* object-fit: cover -> fit hình ảnh vào trong ô hình vuông và khiến hình ảnh căng ra, nhìn rõ nét và rất đẹp mắt. 
+
+
 * **(Xương máu) Muốn 1 button có màu sắc background co lên thụt vào để bao phủ chữ cái --> xài padding**
